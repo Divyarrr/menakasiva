@@ -6,7 +6,7 @@ int main()
     for(i=0;i<a;i++)
     {
         d=t+t1;
-        printf("%d",d);
+        printf("%d\t",d);
         t=t1;
         t1=d;
         
