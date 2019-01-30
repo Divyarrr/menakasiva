@@ -2,12 +2,8 @@
 
 int main() {
    char a[100],b[100]={'c','o','m'};
-   int i,c=0,d=0,g=0,e=0,f=0,h=0,j,k,l,m,n,o;
+   int i,c=0,d=0,g=0,e=0,f=0,h=0,j,n,o,k,l,m;
    scanf("%[^\n]s",a);
-   for(i=0;a[i]!='\0';i++)
-   {
-       if(a[i]!=' ')
-       {
    for(j=0;a[j]!='\0';j++)
    {
        if(a[j]=='@')
@@ -15,14 +11,8 @@ int main() {
        if(a[j]=='.')
        d++;
    }
-       }
-       else if(a[i]==' ')
-       {
-       printf("check ur email");
-       }
-   else 
-   {
-   if((c==1)&&(d==1)&&(a[i]!=' '))
+       
+   if((c==1)&&(d==1))
   {
       for(k=0;a[k]!='@';k++)
       {
@@ -45,8 +35,6 @@ int main() {
           }
       }
   }
-   }
-   }
   if((e==5)&&(h==3))
   printf("password");
   else
