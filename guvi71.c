@@ -8,8 +8,6 @@ int main() {
    {
        l++;
    }
-   if(l%2==0)
-   {
        for(i=0;i<l;i++)
        {
          for(j=l-1;j>=0;j--)  
@@ -18,7 +16,6 @@ int main() {
              k++;
          }
        }
-   }
    if(k>0)
    printf("yes");
    else
