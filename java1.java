@@ -1,10 +1,10 @@
-Java.util.scanner;
-class input
+import java.util.Scanner;
+public class input
 {
-    public static void main(string[]args)
+    public static void main(String[]args)
     {
-        Scanner input=new Scanner(system.in)
-        System.out.println("enter an int");
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter an int:");
         int number=input.nextInt();
         System.out.println("number is"+number);
     }
